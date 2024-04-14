@@ -9,9 +9,13 @@ int main() {
     sum = number3 + number2;   
 
     // difference
-    diff =  number3 - number2;   
+    diff =  number3 - number2; 
+
+    //multiply
+    mul =   number3 * number2;  
     
     printf("%d + %d = %d", number3, number2, sum);
     printf("%d - %d = %d", number3, number2, diff);
+    printf("%d * %d = %d", number3, number2, diff);
     return 0;
 }
